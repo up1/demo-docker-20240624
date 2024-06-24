@@ -6,4 +6,3 @@ RUN npm run build
 
 FROM nginx:1.27.0
 COPY --from=step01 /app/dist /usr/share/nginx/html
-
