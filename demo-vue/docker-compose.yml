@@ -1,5 +1,6 @@
 services:
   vue:
+    image: somkiat/demo-vue:1.0.0
     build:
       context: .
       dockerfile: Dockerfile
