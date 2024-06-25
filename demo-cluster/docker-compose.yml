@@ -1,0 +1,7 @@
+services:
+  api:
+    image: somkiat/demo-nodejs:1.0.0
+    build: .
+    ports:
+      - "3000:3000"
+    
